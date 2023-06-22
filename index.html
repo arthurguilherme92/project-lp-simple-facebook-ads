@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page 1</title>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+    <!--CSS Styles-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="container__header">
+                <h1 class="header__text title">Ebook Free: O Guia Completo para o Facebook Ads</h1>
+                <div class="header__division"></div>
+        </header>
+        <main class="container__main">
+            <div class="container__main__informations">
+                <h2 class="main__text subtitle">O que você precisa saber sobre o nosso curso?</h2>
+                <p class="main__text__paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, dolores repellat. Iste a voluptas sapiente hic laudantium ducimus optio laboriosam. Aliquid, molestias deleniti? Eveniet qui, esse molestias ipsa cum ex.
+                </p>
+                <div class="main_image">
+                    <picture>
+                        <source media="(min-width: 500px)" srcset="img/LP-FacebookAds_Desktop.jpg" type="image/jpg">
+                        <img src="img/LP-FacebookAds_Mobile.jpg" alt="" class="image">
+                    </picture>
+                </div>
+            </div>
+            <div class="main__form-container">
+                <h2 class="main__text-subtitle">Baixe Agora <br />Seu Ebook Grátis!</h2>
+                <form class="main__form-container__form" action="requisition-link">
+                    <div class="main__form-container__form__box-input">
+                        <input 
+                            required
+                            type="text" 
+                            name="first-name" 
+                            id="first-name" 
+                            class="form__box-input__block"
+                            placeholder="Seu Primeiro Nome">
+                    </div>
+                    <div class="main__form-container__form__box-input">
+                        <input
+                            required
+                            type="email" 
+                            name="user-email" 
+                            id="user-email" 
+                            class="form__box-input__block"
+                            placeholder="Seu e-mail">
+                    </div>
+                    <div class="main__form-container__form__box-input">
+                        <input
+                            required
+                            type="url" 
+                            name="user-website" 
+                            id="user-website" 
+                            class="form__box-input__block"
+                            placeholder="Sua página web"
+                            >
+                    </div>
+                    <div class="main__form-container__form__box-input">
+                        <input 
+                            type="submit" 
+                            class="btn"
+                            value="Enviar"
+                            >
+                    </div>
+                    <div class="main__form-container__box-share">
+                        <button class="box-share__btn facebook"><i class="fa-solid fa-thumbs-up"></i>  Like</button>
+                        <button class="box-share__btn google"><i class="fa-brands fa-google-plus-g"></i></button>
+                        <button class="box-share__btn twiter"><i class="fa-brands fa-twitter"></i>  Tweet</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container__footer"></div>
+        </footer>
+    </div>
+</body>
+</html>
